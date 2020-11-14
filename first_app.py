@@ -19,7 +19,7 @@ st.write('My inspiration is coming from one of my favorite movie, Moneyball, in 
 
 from PIL import Image
 image = Image.open('moneyball-movie.jpg')
-st.image(image, caption='AVG number of Transaction since 2017 ',use_column_width=True)
+st.image(image,use_column_width=True)
 
 
 st.write('My mission in this project is to implement that idea and turn it into an automated recommender system.')
@@ -64,3 +64,7 @@ st.selectbox('player name', ['Yao Ming'] + ['Kobe Bryant'])
 
 df = pd.DataFrame(np.random.randn(5, 8),columns=('James Harden','Stephen Curry','Michael Jordan','Klay Tompson','Russ Westbrook','Chris Paul','Danny Green','Paul George'),index=('Score','Assistant','Rebound','Height','Weight'))
 st.dataframe(df)  # Same as st.write(df)
+
+st.text("")
+st.text("")
+st.write('Find me at Linkedin: www.linkedin.com/in/yukangxu')
