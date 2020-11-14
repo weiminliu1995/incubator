@@ -17,11 +17,10 @@ st.text("")
 st.header('1. Introduction')
 st.write('My inspiration is coming from one of my favorite movie, Moneyball, in which a small-market team leveraged more analytical gauges of player performance successfully to field a competitive team.')
 
-from IPython.display import Image
-from IPython.core.display import HTML 
-Image(url= "https://xraydelta.files.wordpress.com/2011/09/moneyball-movie.jpg", width=100, height=100)
+from PIL import Image
+image = Image.open('moneyball-movie.jpg')
+st.image(image, caption='AVG number of Transaction since 2017 ',use_column_width=True)
 
-st.markdown("![Alt Text](https://xraydelta.files.wordpress.com/2011/09/moneyball-movie.jpg)") 
 
 st.write('My mission in this project is to implement that idea and turn it into an automated recommender system.')
 
