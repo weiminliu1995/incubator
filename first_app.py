@@ -33,14 +33,14 @@ st.subheader('Injury and transaction are the key to ruin stability of the team w
 st.subheader('a. Injury')
 st.write('Since 2017, the average amount of games missed due to injury in top 5 team is apparently lower than the rest.')
 from PIL import Image
-image = Image.open('C:/Users/xuyuk/Desktop/Picture2.png')
+image = Image.open('Picture2.png')
 st.image(image, caption='Games Missed per player due to injury: Top5 team VS The rest ',use_column_width=True)
 
 st.text("")
 st.subheader('b. Transaction')
 st.write('Chart below shows a positive relationship between standing and the number of trades.')
 from PIL import Image
-image = Image.open('C:/Users/xuyuk/Desktop/Picture3.png')
+image = Image.open('Picture3.png')
 st.image(image, caption='AVG number of Transaction since 2017 ',use_column_width=True)
 
 
