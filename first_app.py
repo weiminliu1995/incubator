@@ -7,7 +7,7 @@ import pandas as pd
 import streamlit as st
 st.title('Meet your NBA Assistant Manager:') 
 st.header('Recommender System and next best transaction')
-
+st.write('Yukang Xu')
 st.text("")
 st.text("")
 st.text("")
