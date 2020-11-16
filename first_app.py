@@ -7,9 +7,7 @@ import pandas as pd
 import streamlit as st
 st.title('Meet your NBA Assistant Manager:') 
 st.header('Recommender System and next best transaction')
-st.text("")
-st.write('Yukang Xu')
-st.write('Find me at Linkedin: www.linkedin.com/in/yukangxu')
+
 st.text("")
 st.text("")
 st.text("")
@@ -66,3 +64,8 @@ st.selectbox('Team name', ['La Lakers'] + ['Houston Rocket'])
 
 df = pd.DataFrame(np.random.randn(5, 8),columns=('James Harden','Stephen Curry','Michael Jordan','Klay Tompson','Russ Westbrook','Chris Paul','Danny Green','Paul George'),index=('Score','Assistant','Rebound','Height','Weight'))
 st.dataframe(df)  # Same as st.write(df)
+
+st.text("")
+st.text("")
+st.write('Yukang Xu')
+st.write('Find me at Linkedin: www.linkedin.com/in/yukangxu')
